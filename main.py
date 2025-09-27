@@ -112,4 +112,5 @@ def download():
         return jsonify({"message": f"❌ Error: {str(e)}"})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+
+    app.run(host="https://wbdown.vercel.app", port=5000)
